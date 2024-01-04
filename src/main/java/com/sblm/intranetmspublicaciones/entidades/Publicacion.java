@@ -20,7 +20,7 @@ public class Publicacion {
     
     
 	private Long idGerencia;
-    private TipoPublicacion tipoPublicacion;
+    private String tipoPublicacion;
     private String titulo;
     private String contenido;
     private LocalDate fechaPublicacion;
@@ -47,10 +47,10 @@ public class Publicacion {
 	public void setIdGerencia(Long idGerencia) {
 		this.idGerencia = idGerencia;
 	}
-	public TipoPublicacion getTipoPublicacion() {
+	public String getTipoPublicacion() {
 		return tipoPublicacion;
 	}
-	public void setTipoPublicacion(TipoPublicacion tipoPublicacion) {
+	public void setTipoPublicacion(String tipoPublicacion) {
 		this.tipoPublicacion = tipoPublicacion;
 	}
 	public String getTitulo() {
